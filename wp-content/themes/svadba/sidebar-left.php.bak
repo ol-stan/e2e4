@@ -1,0 +1,58 @@
+<div class="span-5">
+		<div class="sidebar sidebar-left">
+
+			<ul>
+				<?php
+						if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Left Sidebar') ) : ?>
+
+
+				<li><h2>Огранизация свадьбы</h2>
+						<ul>
+						<li><a href="http://kolechko.cn.ua/?page_id=17" title="Венчание">Венчание и храмы города</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=40" title="Церемония бракосочетания">Выездная церемония</a></li>
+                        <li><a href="http://kolechko.cn.ua/?page_id=45" title="Место отдыха, брачная ночь">Гостиницы</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=49" title="записи актов гражданского состояния">ЗАГС Чернигова</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=51" title="Место провидения">Рестораны</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=53" title="Организация прогулки">Кейтеринг на свадьбу</a></li>
+						
+
+            			</ul>
+            								</li>
+            								<li><h2>Подготовка к свадьбе</h2>
+						<ul>
+						<li><a href="http://kolechko.cn.ua/?page_id=55" title="машина на свадьбу">Автомобили</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=60" title="Перед свадьбой">Девичник, мальчишник</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=62" title="кольца">Обручальные кольца</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=71" title="А не пригласить ли нам?">Пригласительные открытки</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=75" title="Отдых после свадьбы">Свадебное путешествие</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=77" title="Цветы на свадьбу">Свадебные букеты</a></li>
+						<li><a " title="Салоны">Свадебные платья</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=79" title="Торт на свадьбу">Свадебный торт</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=83" title="Видеосъемка на свадьбе">Свадебное видео</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=85" title="Фото на свадьбе">Свадебное фото</a></li>
+                        <li><a href="http://kolechko.cn.ua/?page_id=89" title="Роспорядитель свадьбы">Тамада, музыканты</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=91" title="Пиротехника">Фейерверк</a></li>
+						<li><a href="http://kolechko.cn.ua/?page_id=93" title="Гелевые шары">Воздушные шары</a></li>
+						
+            			</ul>
+            								</li>
+				
+
+				<?php if (function_exists('get_recent_comments')) { get_recent_comments(); } ?>
+
+
+
+
+				<?php endif; ?>
+			</ul>
+
+		<?php if(get_theme_option('ad_sidebar1_bottom') != '') {
+		?>
+		<div class="sidebaradbox">
+			<?php echo get_theme_option('ad_sidebar1_bottom'); ?>
+		</div>
+		<?php
+		}
+		?>
+		</div>
+</div>

@@ -1,0 +1,346 @@
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 04:58:32
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.13 -- Build Server: 5.5.62
+FILE SIZE:	dup-database__64efc9d-21202030.sql (2.92MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local/dup-installer/dup-installer-data__64efc9d-21202030.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	13
+RENAMED TABLES:	0
+QUERIES RAN:	1705
+
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (200)
+wp_postmeta: (1042)
+wp_posts: (292)
+wp_term_relationships: (21)
+wp_term_taxonomy: (6)
+wp_termmeta: (0)
+wp_terms: (6)
+wp_usermeta: (69)
+wp_users: (4)
+Removed '49' cache/transient rows
+
+INSERT DATA RUNTIME: 0.7692 sec.
+STEP-2 COMPLETE @ 04:58:33 - RUNTIME: 0.7878 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 05:00:28
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Студия e2e4 - создание и продвижение интернет проектов"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/okievr10105/data/www/e2e4.org"
+path_new______________: "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+siteurl_______________: "http://e2e4-wp-local"
+url_old_______________: "https://e2e4.org"
+url_new_______________: "http://e2e4-wp-local"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "e2e4-local-wp"
+dbname________________: "e2e4-local-wp"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   200][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/okievr10105/data/www/e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  2:"\/var\/www\/okievr10105\/data\/www\/e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  3:"%2Fvar%2Fwww%2Fokievr10105%2Fdata%2Fwww%2Fe2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  4:"\var\www\okievr10105\data\www\e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  5:"\\var\\www\\okievr10105\\data\\www\\e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  6:"%5Cvar%5Cwww%5Cokievr10105%5Cdata%5Cwww%5Ce2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  7:"//e2e4.org" ======================================> "//e2e4-wp-local"
+	SEARCH  8:"\/\/e2e4.org" ====================================> "\/\/e2e4-wp-local"
+	SEARCH  9:"%2F%2Fe2e4.org" ==================================> "%2F%2Fe2e4-wp-local"
+	SEARCH 10:"//www.e2e4.org" ==================================> "//e2e4-wp-local"
+	SEARCH 11:"\/\/www.e2e4.org" ================================> "\/\/e2e4-wp-local"
+	SEARCH 12:"%2F%2Fwww.e2e4.org" ==============================> "%2F%2Fe2e4-wp-local"
+	SEARCH 13:"https://e2e4-wp-local" ===========================> "http://e2e4-wp-local"
+	SEARCH 14:"https:\/\/e2e4-wp-local" =========================> "http:\/\/e2e4-wp-local"
+	SEARCH 15:"https%3A%2F%2Fe2e4-wp-local" =====================> "http%3A%2F%2Fe2e4-wp-local"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1042][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/okievr10105/data/www/e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  2:"\/var\/www\/okievr10105\/data\/www\/e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  3:"%2Fvar%2Fwww%2Fokievr10105%2Fdata%2Fwww%2Fe2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  4:"\var\www\okievr10105\data\www\e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  5:"\\var\\www\\okievr10105\\data\\www\\e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  6:"%5Cvar%5Cwww%5Cokievr10105%5Cdata%5Cwww%5Ce2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  7:"//e2e4.org" ======================================> "//e2e4-wp-local"
+	SEARCH  8:"\/\/e2e4.org" ====================================> "\/\/e2e4-wp-local"
+	SEARCH  9:"%2F%2Fe2e4.org" ==================================> "%2F%2Fe2e4-wp-local"
+	SEARCH 10:"//www.e2e4.org" ==================================> "//e2e4-wp-local"
+	SEARCH 11:"\/\/www.e2e4.org" ================================> "\/\/e2e4-wp-local"
+	SEARCH 12:"%2F%2Fwww.e2e4.org" ==============================> "%2F%2Fe2e4-wp-local"
+	SEARCH 13:"https://e2e4-wp-local" ===========================> "http://e2e4-wp-local"
+	SEARCH 14:"https:\/\/e2e4-wp-local" =========================> "http:\/\/e2e4-wp-local"
+	SEARCH 15:"https%3A%2F%2Fe2e4-wp-local" =====================> "http%3A%2F%2Fe2e4-wp-local"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   292][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/okievr10105/data/www/e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  2:"\/var\/www\/okievr10105\/data\/www\/e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  3:"%2Fvar%2Fwww%2Fokievr10105%2Fdata%2Fwww%2Fe2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  4:"\var\www\okievr10105\data\www\e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  5:"\\var\\www\\okievr10105\\data\\www\\e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  6:"%5Cvar%5Cwww%5Cokievr10105%5Cdata%5Cwww%5Ce2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  7:"//e2e4.org" ======================================> "//e2e4-wp-local"
+	SEARCH  8:"\/\/e2e4.org" ====================================> "\/\/e2e4-wp-local"
+	SEARCH  9:"%2F%2Fe2e4.org" ==================================> "%2F%2Fe2e4-wp-local"
+	SEARCH 10:"//www.e2e4.org" ==================================> "//e2e4-wp-local"
+	SEARCH 11:"\/\/www.e2e4.org" ================================> "\/\/e2e4-wp-local"
+	SEARCH 12:"%2F%2Fwww.e2e4.org" ==============================> "%2F%2Fe2e4-wp-local"
+	SEARCH 13:"https://e2e4-wp-local" ===========================> "http://e2e4-wp-local"
+	SEARCH 14:"https:\/\/e2e4-wp-local" =========================> "http:\/\/e2e4-wp-local"
+	SEARCH 15:"https%3A%2F%2Fe2e4-wp-local" =====================> "http%3A%2F%2Fe2e4-wp-local"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/okievr10105/data/www/e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  2:"\/var\/www\/okievr10105\/data\/www\/e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  3:"%2Fvar%2Fwww%2Fokievr10105%2Fdata%2Fwww%2Fe2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  4:"\var\www\okievr10105\data\www\e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  5:"\\var\\www\\okievr10105\\data\\www\\e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  6:"%5Cvar%5Cwww%5Cokievr10105%5Cdata%5Cwww%5Ce2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  7:"//e2e4.org" ======================================> "//e2e4-wp-local"
+	SEARCH  8:"\/\/e2e4.org" ====================================> "\/\/e2e4-wp-local"
+	SEARCH  9:"%2F%2Fe2e4.org" ==================================> "%2F%2Fe2e4-wp-local"
+	SEARCH 10:"//www.e2e4.org" ==================================> "//e2e4-wp-local"
+	SEARCH 11:"\/\/www.e2e4.org" ================================> "\/\/e2e4-wp-local"
+	SEARCH 12:"%2F%2Fwww.e2e4.org" ==============================> "%2F%2Fe2e4-wp-local"
+	SEARCH 13:"https://e2e4-wp-local" ===========================> "http://e2e4-wp-local"
+	SEARCH 14:"https:\/\/e2e4-wp-local" =========================> "http:\/\/e2e4-wp-local"
+	SEARCH 15:"https%3A%2F%2Fe2e4-wp-local" =====================> "http%3A%2F%2Fe2e4-wp-local"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/okievr10105/data/www/e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  2:"\/var\/www\/okievr10105\/data\/www\/e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  3:"%2Fvar%2Fwww%2Fokievr10105%2Fdata%2Fwww%2Fe2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  4:"\var\www\okievr10105\data\www\e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  5:"\\var\\www\\okievr10105\\data\\www\\e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  6:"%5Cvar%5Cwww%5Cokievr10105%5Cdata%5Cwww%5Ce2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  7:"//e2e4.org" ======================================> "//e2e4-wp-local"
+	SEARCH  8:"\/\/e2e4.org" ====================================> "\/\/e2e4-wp-local"
+	SEARCH  9:"%2F%2Fe2e4.org" ==================================> "%2F%2Fe2e4-wp-local"
+	SEARCH 10:"//www.e2e4.org" ==================================> "//e2e4-wp-local"
+	SEARCH 11:"\/\/www.e2e4.org" ================================> "\/\/e2e4-wp-local"
+	SEARCH 12:"%2F%2Fwww.e2e4.org" ==============================> "%2F%2Fe2e4-wp-local"
+	SEARCH 13:"https://e2e4-wp-local" ===========================> "http://e2e4-wp-local"
+	SEARCH 14:"https:\/\/e2e4-wp-local" =========================> "http:\/\/e2e4-wp-local"
+	SEARCH 15:"https%3A%2F%2Fe2e4-wp-local" =====================> "http%3A%2F%2Fe2e4-wp-local"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/okievr10105/data/www/e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  2:"\/var\/www\/okievr10105\/data\/www\/e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  3:"%2Fvar%2Fwww%2Fokievr10105%2Fdata%2Fwww%2Fe2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  4:"\var\www\okievr10105\data\www\e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  5:"\\var\\www\\okievr10105\\data\\www\\e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  6:"%5Cvar%5Cwww%5Cokievr10105%5Cdata%5Cwww%5Ce2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  7:"//e2e4.org" ======================================> "//e2e4-wp-local"
+	SEARCH  8:"\/\/e2e4.org" ====================================> "\/\/e2e4-wp-local"
+	SEARCH  9:"%2F%2Fe2e4.org" ==================================> "%2F%2Fe2e4-wp-local"
+	SEARCH 10:"//www.e2e4.org" ==================================> "//e2e4-wp-local"
+	SEARCH 11:"\/\/www.e2e4.org" ================================> "\/\/e2e4-wp-local"
+	SEARCH 12:"%2F%2Fwww.e2e4.org" ==============================> "%2F%2Fe2e4-wp-local"
+	SEARCH 13:"https://e2e4-wp-local" ===========================> "http://e2e4-wp-local"
+	SEARCH 14:"https:\/\/e2e4-wp-local" =========================> "http:\/\/e2e4-wp-local"
+	SEARCH 15:"https%3A%2F%2Fe2e4-wp-local" =====================> "http%3A%2F%2Fe2e4-wp-local"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    69][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/okievr10105/data/www/e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  2:"\/var\/www\/okievr10105\/data\/www\/e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  3:"%2Fvar%2Fwww%2Fokievr10105%2Fdata%2Fwww%2Fe2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  4:"\var\www\okievr10105\data\www\e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  5:"\\var\\www\\okievr10105\\data\\www\\e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  6:"%5Cvar%5Cwww%5Cokievr10105%5Cdata%5Cwww%5Ce2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  7:"//e2e4.org" ======================================> "//e2e4-wp-local"
+	SEARCH  8:"\/\/e2e4.org" ====================================> "\/\/e2e4-wp-local"
+	SEARCH  9:"%2F%2Fe2e4.org" ==================================> "%2F%2Fe2e4-wp-local"
+	SEARCH 10:"//www.e2e4.org" ==================================> "//e2e4-wp-local"
+	SEARCH 11:"\/\/www.e2e4.org" ================================> "\/\/e2e4-wp-local"
+	SEARCH 12:"%2F%2Fwww.e2e4.org" ==============================> "%2F%2Fe2e4-wp-local"
+	SEARCH 13:"https://e2e4-wp-local" ===========================> "http://e2e4-wp-local"
+	SEARCH 14:"https:\/\/e2e4-wp-local" =========================> "http:\/\/e2e4-wp-local"
+	SEARCH 15:"https%3A%2F%2Fe2e4-wp-local" =====================> "http%3A%2F%2Fe2e4-wp-local"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/okievr10105/data/www/e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  2:"\/var\/www\/okievr10105\/data\/www\/e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  3:"%2Fvar%2Fwww%2Fokievr10105%2Fdata%2Fwww%2Fe2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  4:"\var\www\okievr10105\data\www\e2e4.org" ==========> "C:/Users/Admin/OpenServer/OSPanel/domains/e2e4-wp-local"
+	SEARCH  5:"\\var\\www\\okievr10105\\data\\www\\e2e4.org" ====> "C:\/Users\/Admin\/OpenServer\/OSPanel\/domains\/e2e4-wp-local"
+	SEARCH  6:"%5Cvar%5Cwww%5Cokievr10105%5Cdata%5Cwww%5Ce2e4.org" => "C%3A%2FUsers%2FAdmin%2FOpenServer%2FOSPanel%2Fdomains%2Fe2e4-wp-local"
+	SEARCH  7:"//e2e4.org" ======================================> "//e2e4-wp-local"
+	SEARCH  8:"\/\/e2e4.org" ====================================> "\/\/e2e4-wp-local"
+	SEARCH  9:"%2F%2Fe2e4.org" ==================================> "%2F%2Fe2e4-wp-local"
+	SEARCH 10:"//www.e2e4.org" ==================================> "//e2e4-wp-local"
+	SEARCH 11:"\/\/www.e2e4.org" ================================> "\/\/e2e4-wp-local"
+	SEARCH 12:"%2F%2Fwww.e2e4.org" ==============================> "%2F%2Fe2e4-wp-local"
+	SEARCH 13:"https://e2e4-wp-local" ===========================> "http://e2e4-wp-local"
+	SEARCH 14:"https:\/\/e2e4-wp-local" =========================> "http:\/\/e2e4-wp-local"
+	SEARCH 15:"https%3A%2F%2Fe2e4-wp-local" =====================> "http%3A%2F%2Fe2e4-wp-local"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:1640 	|	 Cells:12123 
+UPDATED:	Tables:3 	|	 Rows:310 	|	 Cells:368 
+ERRORS:		0 
+RUNTIME:	0.265500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""e2e4-local-wp""
+	UPDATE DB_USER ""e2e4-local-wp""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__64efc9d-21202030' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate really-simple-ssl/rlrsssl-really-simple-ssl.php
+Plugin(s) listed here are deactivated: really-simple-ssl/rlrsssl-really-simple-ssl.php
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 05:00:28 - RUNTIME: 0.3724 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  Really Simple SSL
+	SECTIONS: general
+	LONG MSG: This plugin has been deactivated since this migration is going from SSL (HTTPS) to Non-SSL (HTTP).  This will allow you to login to your WordPress Admin.   To reactivate the plugin please go to the admin plugin page.
+
+====================================

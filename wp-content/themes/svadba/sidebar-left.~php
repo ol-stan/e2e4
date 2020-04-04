@@ -1,0 +1,69 @@
+<div class="span-5">
+        <div class="sidebar sidebar-left">
+        
+            <ul>
+                <?php 
+                        if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Left Sidebar') ) : ?>
+    
+                    
+                <li><h2> Работа в  САР</h2>
+<ul>
+<li><a href="http://you-partner.ru/?page_id=3/" title="������">������ ���� �����</a></li>
+<li><a href="http://you-partner.ru/?page_id=42/" title="�������� �    ">Web����-ip</a></li>
+<li><a href="http://you-partner.ru/?page_id=45/" title="Cashtaller">Cashtaller</a></li>
+<li><a href="http://you-partner.ru/?page_id=47/" title="Зона бизнеса">Wmzona</a></li>
+<li><a href="http://you-partner.ru/?page_id=49/" title="Информ портал">Sb-money.ru</a></li>
+<li><a href="http://you-partner.ru/?page_id=52/" title="beast">Wm.beast</a></li>
+<li><a href="http://you-partner.ru/?page_id=54/" title="Фехтовальщик">Seven-super</a></li>
+<li><a href="http://you-partner.ru/?page_id=56/" title="Колотибабло">Kolotibablo</a></li>
+<li><a href="http://you-partner.ru/?page_id=58/" title="Интернет зона">Ineuro</a></li>
+<li><a href="http://you-partner.ru/?page_id=60/" title="Wmpublic">Wmpublic</a></li>
+<li><a href="http://you-partner.ru/?page_id=62/" title="hotrusclick">hotrusclick</a></li>
+<li><a href="http://you-partner.ru/?page_id=64/" title="Ipweb">Ipweb</a></li>
+<li><a href="http://you-partner.ru/?page_id=66/" title="Rusip">Rusip</a></li>
+<li><a href="http://you-partner.ru/?page_id=68/" title="Xclick">Xclick</a></li>
+<li><a href="http://you-partner.ru/?page_id=71/" title="Vipip">Vipip</a></li>
+<li><a href="http://you-partner.ru/?page_id=72/" title="Ipgold">Ipgold</a></li>
+<li><a href="http://you-partner.ru/?page_id=74/" title="Greenstree">Greenstree</a></li>
+</ul>
+
+<li><h2>Автосерфинг</h2>
+<ul>
+<li><a href="http://you-partner.ru/?page_id=176/" title="секреты автосерфинга">Про автосерфинг (работа)</a></li>
+<li><a href="http://you-partner.ru/?page_id=179/" title="JetSwap">JetSwap</a></li>
+<li><a href="http://you-partner.ru/?page_id=181/" title="websurf">websurf</a></li>
+<li><a href="http://you-partner.ru/?page_id=183/" title="wmraskrutim">wmraskrutim</a></li>
+<li><a href="http://you-partner.ru/?page_id=186/" title="freesap">freesap</a></li>
+<li><a href="http://you-partner.ru/?page_id=188/" title="vipsurf">vipsurf</a></li>
+</ul>
+<li><h2>Статьи по САР</h2>
+<ul>
+<li><a href="http://you-partner.ru/?page_id=127/" title="чистить cookies">Как чистить куки (cookies)?</a></li>
+<li><a href="http://you-partner.ru/?page_id=132/" title="Секреты по заданиям">Все про задания</a></li>
+<li><a href="http://you-partner.ru/?page_id=220/" title="о рефералах">о наборе рефералов</a></li>
+</ul>
+
+
+                    <li><h2><?php _e('Recent Posts'); ?></h2>
+                               <ul>
+                        <?php wp_get_archives('type=postbypost&limit=5'); ?>  
+                               </ul>
+                    </li>
+                    
+            
+                <?php if (function_exists('get_recent_comments')) { get_recent_comments(); } ?>
+                
+                        
+                    
+                    
+                <?php endif; ?>
+            </ul>
+            
+        <?php if(get_theme_option('ad_sidebar1_bottom') != '') {
+        ?>
+    
+        <?php
+        }
+        ?>
+        </div>
+</div>

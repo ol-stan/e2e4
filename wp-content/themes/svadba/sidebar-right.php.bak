@@ -1,0 +1,43 @@
+
+	<div class="span-5 last">
+		
+		<div class="sidebar sidebar-right">
+		
+			
+	
+			<ul>
+				<?php 
+						if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Right Sidebar') ) : ?>
+					
+					<li><h2>Информ раздел</h2>
+<ul>
+<li><a href="http://kolechko.cn.ua/" title="чистить cookies">Вводная информация</a></li>
+
+</ul>
+							
+				
+					<li><h2>Статистика</h2><noindex>
+			<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='http://counter.yadro.ru/hit?t58.11;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='88' height='31'><\/a>")
+//--></script><!--/LiveInternet--></noindex>
+</li>
+		<hr>
+	
+				<?php endif; ?>
+			</ul>
+		<?php if(get_theme_option('ad_sidebar2_bottom') != '') {
+		?>
+		
+				<?php
+		}
+		?>
+		</div>
+		
+	</div>
